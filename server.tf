@@ -7,7 +7,7 @@ resource "aws_instance" "myawsserver" {
   key_name = "abc-import"
 
   tags = {
-    Name = "Gagan-devops-ec2-instance-vr2"
+    Name = "Gagan-devops-ec2-instanc12e-vr2"
     env = "prod"
   }
   provisioner "local-exec" {
